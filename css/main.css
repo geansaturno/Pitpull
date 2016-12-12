@@ -285,3 +285,12 @@ textarea {
 #panels-sobre {
     margin-top: 20px;
 }
+
+#title-depoimentos{
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #FFF;
+    background-color: blue;
+    font-size: 18px;
+}

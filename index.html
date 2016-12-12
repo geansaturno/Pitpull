@@ -16,7 +16,7 @@
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
-    <div class="container">
+    <section class="container">
         <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -44,7 +44,83 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h2>O melhor criadouro desde 1990</h2>
+            <p>
+                Mais de 100 filhotes vendidos
+            </p>
+        </div>
     </div>
+
+    <section class="container">
+        <h2>PitBulls</h2>
+        <figure class="thumbnail">
+            <img src="img/Alex.jpg" alt="Alex">
+            <figcaption class="caption">
+                <h3>Alex, a mamãezona</h3>
+                <p>Alex é muito docil com o seus donos, e muito fiel também, foi o pitbull mais fácil de adoçar que tivemos e mesmo assim sabe proteger a casa </p>
+            </figcaption>
+        </figure>
+
+        <figure class="thumbnail">
+            <img src="img/Fred.jpg" alt="fred">
+            <figcaption class="caption">
+                <h3>Fred, o macho alfa.</h3>
+                <p>Fred é tranquilo e sosegado, mas não gosta de bagunça, se ago sair do seu controle ele irá latir, coisa que nunca acontece.</p>
+            </figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <h2 id="title-depoimentos" class="container">Depoimentos</h2>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <figure class="item active">
+                    <img src="img/depoimento3.jpg" alt="...">
+                    <figcaption class="carousel-caption">
+                        <h3>Lesie</h3>
+                        <p>Não vivo sem ela, ela solvou a minha vida</p>
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="img/depoimento4.jpg" alt="...">
+                    <figcaption class="carousel-caption">
+                        <h3>Betoven</h3>
+                        <p>Impediu que minha filha fosse sequestrada</p>
+                    </figcaption>
+                </figure>
+                <figure class="item">
+                    <img src="img/depoimento5.jpg" alt="...">
+                    <figcaption class="carousel-caption">
+                        <h3>Bark</h3>
+                        <p>Bagunceiro, mas não vivo sem ele!</p>
+                    </figcaption>
+                </figure>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
 
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
