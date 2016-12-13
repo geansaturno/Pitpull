@@ -294,3 +294,22 @@ textarea {
     background-color: blue;
     font-size: 18px;
 }
+
+#container-sexo {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+#container-cor {
+    display: inline-block;
+    width: 50%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
