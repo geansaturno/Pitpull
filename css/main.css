@@ -282,6 +282,38 @@ textarea {
 }
 
 /*Minhas modificações*/
+html,
+body{
+    height: 100%;
+}
+
+header {
+    background-image: url(../img/banner.jpg);
+    height: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#banner {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    transition: .5s;
+}
+
+#banner h1 {
+    margin-top: 0px;
+}
+
 #panels-sobre {
     margin-top: 20px;
 }

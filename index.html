@@ -17,31 +17,39 @@
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container">
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="hamburger--spin navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                    <a class="navbar-brand" href="#">PitBulls</a>
+                </div>
 
-            <div class="navbar-header">
-                <button type="button" class="hamburger--spin navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="hamburger-box">
-                        <span class="hamburger-inner"></span>
-                    </span>
-                </button>
-                <a class="navbar-brand" href="#">PitBulls</a>
+                <div class="collapse navbar-collapse" id="main-menu">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#premio">Premio</a></li>
+                        <li><a href="#pittbulls">Pittbulls</a></li>
+                        <li><a href="#depoimentos">Depoimento</a></li>
+                        <li><a href="#video">Video</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
             </div>
+        </nav>
 
-            <div class="collapse navbar-collapse" id="main-menu">
-                <ul class="nav navbar-nav">
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#premio">Premio</a></li>
-                    <li><a href="#pittbulls">Pittbulls</a></li>
-                    <li><a href="#depoimentos">Depoimento</a></li>
-                    <li><a href="#video">Video</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </div>
+        <div class="" id="banner">
+            <h1>Pittbulls</h1>
+            <p>Seu amigo leal está bem aqui</p>
+            <a href="#contato" class="btn btn-primary btn-lg">Entre em contato</a>
         </div>
-    </nav>
+
+    </header>
 
     <section class="container" id="sobre">
         <!--[if lt IE 8]>
@@ -232,5 +240,6 @@
     </script>
 
     <script src="js\bootstrap.min.js" charset="utf-8"></script>
+    <script src="js\banner-move.js" charset="utf-8"></script>
 </body>
 </html>
