@@ -338,6 +338,13 @@ header {
     width: 50%;
 }
 
+#pittbulls .thumbnail {
+
+    min-height: 520px;
+    /*@media (min-width: 769px ){
+    }*/
+}
+
 footer {
     background-color: #333;
     color: white;
